@@ -1,0 +1,50 @@
+# .gitignore
+
+# Ignore all __pycache__ directories
+__pycache__/
+
+# Ignore all .pyc files
+*.pyc
+
+# Ignore all .pyo files
+*.pyo
+
+# Ignore all .pyd files (Windows)
+*.pyd
+
+# Ignore all .so files (Linux)
+*.so
+
+# Ignore all .dll files (Windows)
+*.dll
+
+# Ignore all .dylib files (Mac)
+*.dylib
+
+# Ignore all .egg and .egg-info directories
+*.egg
+*.egg-info/
+
+# Ignore all .dist-info directories (pip)
+*.dist-info/
+
+# Ignore all .env directories (virtualenv)
+.env/
+
+# Ignore all .venv directories (venv)
+.venv/
+
+# Ignore all .idea directories (PyCharm)
+.idea/
+
+# Ignore all .vscode directories (VS Code)
+.vscode/
+
+# Ignore the build directory created by PyInstaller
+build/
+
+# Ignore the dist directory created by PyInstaller
+dist/
+
+# Ignore the .spec file created by PyInstaller
+*.spec
